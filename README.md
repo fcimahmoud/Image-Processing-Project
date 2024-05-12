@@ -4,7 +4,7 @@ This project focuses on image processing techniques and provides a collection of
 ## Functions and Filters
 The project includes the following functions and filters:
 
-![alt text](https://github.com/fcimahmoud/Image-Processing-Project.git/blob/[main]/Mapping.png?raw=true)
+![alt text](https://imgur.com/a/ZoflFqX)
 
 
 ### DirectMappingZeroOrder:
