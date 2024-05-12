@@ -4,6 +4,9 @@ This project focuses on image processing techniques and provides a collection of
 ## Functions and Filters
 The project includes the following functions and filters:
 
+![alt text](https://github.com/fcimahmoud/Image-Processing-Project.git/blob/[main]/Screen_Shots/Mapping.PNG?raw=true)
+
+
 ### DirectMappingZeroOrder:
     Performs zero-order direct mapping on the input image. This function directly maps pixel values from the input image to the output image without any modifications.
 ### ReverseMappingZeroOrder: 
@@ -58,5 +61,6 @@ The project includes the following functions and filters:
     Enhances image sharpness by emphasizing high-frequency components using a sharpening filter.
 ### Unsharp_Mask_Filter: 
     Improves image details by subtracting a blurred version of the image from the original using an unsharp mask filter.
+
 
 ## Feel free to explore and experiment with these functions and filters to gain a deeper understanding of image processing techniques.
