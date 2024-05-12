@@ -96,4 +96,8 @@ The project includes the following functions and filters:
     Improves image details by subtracting a blurred version of the image from the original using an unsharp mask filter.
 
 
-## Feel free to explore and experiment with these functions and filters to gain a deeper understanding of image processing techniques.
+# Usage
+### To use this project, follow the steps below:
+
+## Download MATLAB or use MATLAB Online (https://www.mathworks.com/products/matlab-online.html)
+## To run the GUI you should write "GUIImplementation" in matlab terminal
