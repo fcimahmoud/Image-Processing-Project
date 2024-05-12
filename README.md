@@ -4,8 +4,8 @@ This project focuses on image processing techniques and provides a collection of
 ## Functions and Filters
 The project includes the following functions and filters:
 
-![Mapping](https://github.com/fcimahmoud/Image-Processing-Project/blob/main/Mapping.PNG)
-
+# Mapping
+![Mapping](https://github.com/fcimahmoud/Image-Processing-Project/blob/main/Screen_Shots/Mapping.PNG)
 
 ### DirectMappingZeroOrder:
     Performs zero-order direct mapping on the input image. This function directly maps pixel values from the input image to the output image without any modifications.
@@ -16,14 +16,10 @@ The project includes the following functions and filters:
 ### ReverseMappingOneOrder: 
     Utilizes first-order reverse mapping on the input image. This function applies a reverse linear transformation to adjust the pixel values based on a defined slope and intercept.
 
-### Brightness: 
-    Adjusts the brightness of the input image by adding or subtracting a constant value to each pixel.
-### Contrast: 
-    Enhances the contrast of the input image by stretching the range of pixel values.
-### Addition: 
-    Performs pixel-wise addition of two input images.
-### Subtraction: 
-    Performs pixel-wise subtraction of two input images.
+
+# Conversion
+![Conversion](https://github.com/fcimahmoud/Image-Processing-Project/blob/main/Screen_Shots/Conversion.PNG)
+
 ### Gray_Averaging: 
     Converts the input image to grayscale using the averaging method, which calculates the average value of the RGB channels.
 ### Gray_Decomposing: 
@@ -34,16 +30,38 @@ The project includes the following functions and filters:
     Converts the input image to grayscale using the luminance method, which calculates the weighted average of the RGB channels.
 ### Gray_Single_Channel: 
     Converts the input image to grayscale by selecting a single color channel.
+
+
+# Histogram
+![Histogram](https://github.com/fcimahmoud/Image-Processing-Project/blob/main/Screen_Shots/Histogram.PNG)
+
+### Brightness: 
+    Adjusts the brightness of the input image by adding or subtracting a constant value to each pixel.
+### Contrast: 
+    Enhances the contrast of the input image by stretching the range of pixel values.
 ### Draw_Histogram: 
     Generates a histogram for the input image, displaying the distribution of pixel intensities.
 ### Histogram_Equalization: 
     Performs histogram equalization on the input image to improve contrast and enhance details.
 ### Histogram_Matching: 
     Matches the histogram of the input image to a specified reference histogram, transferring the tonal distribution.
-### Negative: 
-    Produces the negative image of the input image by inverting the pixel values.
 ### Power_Law: 
     Applies a power-law transformation to adjust the gamma value of the input image, allowing for contrast enhancement.
+
+
+# Arithmetic
+![Arithmetic](https://github.com/fcimahmoud/Image-Processing-Project/blob/main/Screen_Shots/Arithmetic.PNG)
+
+### Negative: 
+    Produces the negative image of the input image by inverting the pixel values.
+### Addition: 
+    Performs pixel-wise addition of two input images.
+### Subtraction: 
+    Performs pixel-wise subtraction of two input images.
+
+
+# Smoothing
+![Smoothing](https://github.com/fcimahmoud/Image-Processing-Project/blob/main/Screen_Shots/Smoothing.PNG)
 
 ### Max_Filter: 
     Applies a maximum filter to the input image, replacing each pixel with the maximum value within its neighborhood.
@@ -55,10 +73,25 @@ The project includes the following functions and filters:
     Applies a median filter to the input image, replacing each pixel with the median value within its neighborhood.
 ### Weighted_Filter: 
     Applies a weighted filter to the input image, calculating the weighted average of pixel values within its neighborhood.
+
+
+# Edge_Detection
+![Edge_Detection](https://github.com/fcimahmoud/Image-Processing-Project/blob/main/Screen_Shots/Edge_Detection.PNG)
+
 ### Edge_Detection_Filter: 
     Applies an edge detection filter to highlight edges and boundaries in the input image.
+
+
+# Sharpening
+![Sharpening](https://github.com/fcimahmoud/Image-Processing-Project/blob/main/Screen_Shots/Sharpening.PNG)
+
 ### Sharpening_Filter: 
     Enhances image sharpness by emphasizing high-frequency components using a sharpening filter.
+
+
+# Unsharpening
+![Unsharpening](https://github.com/fcimahmoud/Image-Processing-Project/blob/main/Screen_Shots/Unsharpening.PNG)
+
 ### Unsharp_Mask_Filter: 
     Improves image details by subtracting a blurred version of the image from the original using an unsharp mask filter.
 
